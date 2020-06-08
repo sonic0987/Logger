@@ -4,7 +4,7 @@ public class Logger {
     public static boolean isDebug = true;
     public static boolean isSaveErrorFile = true;
     public static boolean isShowPeriodLog = true;
-    public static boolean isTest = true;        //Module ID 없이 링크설정 화면 진입 가능하도록 적용.(시험용)
+    public static boolean isTest = true;
 
     public static void d(String tag, String msg) {
         if (!isDebug) return;
